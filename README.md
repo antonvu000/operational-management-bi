@@ -229,17 +229,30 @@ further improve the model by:
 
 ![Operational Overview](dashboard/01_operational_overview.png)
 
-**Purpose:** Provide managers with a high-level view of reporting operations.
+**Purpose:**  
+Provide managers with a high-level view of reporting operations while allowing quick drill-down into the composition behind key metrics.
 
 **Analyzes:**
-- Total incoming requests.
-- Monthly workload trend.
+- Total incoming reporting requests.
+- Monthly workload trends.
 - Completion status.
+- Request composition by report type and handling frequency.
+- Automated versus manually created reporting workload.
+
+**Interactive analysis:**
+- KPI visuals provide hover tooltips with additional breakdowns.
+- Managers can inspect report type and handling frequency without leaving the overview page.
+- Interactive filters allow workload to be explored by month, status, report type, and request frequency.
+
+![Operational Overview Tooltip](dashboard/01_operational_overview_tooltip.png)
 
 **Business questions:**
-- How much reporting demand is the team handling?
-- Is workload increasing or decreasing?
-- Is operational capacity sufficient?
+- How much reporting demand is the team currently handling?
+- Is workload increasing or decreasing over time?
+- How much of the workload is automated versus manually created?
+- What types of reports and handling frequencies contribute most to the workload?
+- Is the team operating within its current capacity?
+- Where should managers investigate further for automation or workload redistribution?
 
 ---
 
